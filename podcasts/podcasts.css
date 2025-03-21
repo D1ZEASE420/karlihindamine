@@ -1,0 +1,282 @@
+/* Podcast Section Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li {
+    font-size: 14px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-icons a {
+    margin-left: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+  
+  .podcast-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .podcast-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .podcast-header h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 0;
+    letter-spacing: -1px;
+  }
+  
+  .podcast-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .podcast-item {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #000000;
+    position: relative;
+  }
+  
+  .podcast-number {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    width: 30px;
+  }
+  
+  .podcast-thumbnail {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  
+  .podcast-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .podcast-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .podcast-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+  
+  .podcast-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  
+  .meta-item {
+    margin-right: 20px;
+    color: #555;
+  }
+  
+  .listen-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .arrow {
+    margin-left: 5px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .podcast-header h1 {
+      font-size: 3rem;
+    }
+    
+    .podcast-item {
+      flex-wrap: wrap;
+    }
+    
+    .podcast-number {
+      margin-bottom: 10px;
+    }
+    
+    .podcast-thumbnail {
+      margin-bottom: 15px;
+    }
+    
+    .podcast-details {
+      width: 100%;
+    }
+    
+    .podcast-meta {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .meta-item {
+      margin-bottom: 5px;
+    }
+    
+    .listen-link {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }
+
+  .footer-content {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-brand {
+    flex: 0 0 30%;
+  }
+  
+  .footer-brand h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .footer-links {
+    flex: 0 0 70%;
+    display: flex;
+  }
+  
+  .footer-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-column a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 20px 0;
+    border-top: 1px solid #333;
+  }
+  
+  .copyright p {
+    font-size: 12px;
+    color: #999;
+    margin: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icon {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .newsletter-banner {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .newsletter-text h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    
+    .footer-content {
+      flex-direction: column;
+    }
+    
+    .footer-brand {
+      margin-bottom: 30px;
+    }
+    
+    .footer-bottom {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .social-icons {
+      margin-top: 15px;
+    }
+    
+    .social-icon {
+      margin-left: 0;
+      margin-right: 15px;
+    }
+  }
+
+  .no-color-change {
+    color: inherit; /* Use the inherited color */
+    text-decoration: none; /* Remove underline */
+}
+
+.no-color-change:visited,
+.no-color-change:hover,
+.no-color-change:active {
+    color: inherit; /* Ensure color remains the same */
+    text-decoration: none; /* Remove underline */
+}
+
