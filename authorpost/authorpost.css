@@ -10,7 +10,6 @@ body {
     line-height: 1.5;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -39,7 +38,6 @@ header {
     gap: 10px;
 }
 
-/* Header Navigation */
 .header-navigation {
     display: flex;
     justify-content: space-between;
@@ -61,7 +59,6 @@ header {
     font-weight: bold;
 }
 
-/* Author Profile */
 .author-profile {
     display: flex;
     padding: 0 20px 40px 20px;
@@ -124,7 +121,6 @@ header {
     max-width: 800px;
 }
 
-/* Articles Section */
 .articles-section {
     padding: 40px 20px;
     border-top: 1px solid #eee;
@@ -178,7 +174,6 @@ header {
     color: #666;
 }
 
-/* Newsletter */
 .newsletter-banner {
     background-color: #000;
     color: #fff;
@@ -290,7 +285,6 @@ header {
     color: white;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
     .articles-grid {
         grid-template-columns: 1fr;

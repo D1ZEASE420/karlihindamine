@@ -1,4 +1,3 @@
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -14,15 +13,13 @@
     text-decoration: none;
     color: inherit;
   }
-  
-  /* Container */
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
   }
-  
-  /* Footer Styles */
+
   .footer {
     background-color: #000;
     color: #fff;
@@ -126,8 +123,7 @@
   .social-icon {
     margin-left: 15px;
   }
-  
-  /* Article Page Styles */
+
   .magazine-page {
     max-width: 1200px;
     margin: 0 auto;
@@ -234,8 +230,7 @@
     height: auto;
     display: block;
   }
-  
-  /* Responsive Styles */
+
   @media (max-width: 768px) {
     .newsletter-banner {
       flex-direction: column;
@@ -269,7 +264,6 @@
     }
   }
 
-  /* Author Section Styles */
 .author-section {
     display: flex;
     flex-direction: column;
@@ -322,9 +316,9 @@
     margin-right: 10px;
     color: #000;
   }
-  /* Article Content Styles */
+
   .article-full-content {
-    margin-left: 290px; /* Author section width + margin */
+    margin-left: 290px; 
     max-width: 650px;
   }
   .article-full-content p {
@@ -332,7 +326,7 @@
     line-height: 1.6;
     margin-bottom: 25px;
   }
-  /* Quote Styles */
+
   .article-quote {
     margin: 50px 0;
     padding: 0 0 0 30px;
@@ -365,7 +359,6 @@
     border-top: 1px solid #ddd;
     width: 70%;
   }
-  /* Responsive styles */
   @media (max-width: 768px) {
     .author-section {
       float: none;
